@@ -1,3 +1,5 @@
+using System;
+
 namespace fizzbuzz
 {
     public class FizzBuzz
@@ -19,7 +21,7 @@ namespace fizzbuzz
                 return "buzz";
             }
 
-            return "1";
+            return Convert.ToString(num);
         }
     }
 }
