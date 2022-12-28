@@ -12,5 +12,13 @@ namespace fizzbuzz
             var result = fizzBuzz.GetFizzBuzz(1);
             Assert.Equal("1", result);
         }
+        
+        [Fact]
+        public void ShouldReturnFizzWhenNumberIsDivisibleBy3()
+        {
+            var fizzBuzz = new FizzBuzz();
+            var result = fizzBuzz.GetFizzBuzz(3);
+            Assert.Equal("fizz", result);
+        }
     }
 }
