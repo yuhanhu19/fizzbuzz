@@ -28,5 +28,13 @@ namespace fizzbuzz
             var result = fizzBuzz.GetFizzBuzz(5);
             Assert.Equal("buzz", result);
         }
+        
+        [Fact]
+        public void ShouldReturnFizzBuzzWhenNumberIsDivisibleBy3And5()
+        {
+            var fizzBuzz = new FizzBuzz();
+            var result = fizzBuzz.GetFizzBuzz(15);
+            Assert.Equal("fizzbuzz", result);
+        }
     }
 }
