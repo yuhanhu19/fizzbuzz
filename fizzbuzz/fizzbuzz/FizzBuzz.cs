@@ -4,6 +4,11 @@ namespace fizzbuzz
     {
         public string GetFizzBuzz(int num)
         {
+            if (num % 3 == 0)
+            {
+                return "fizz";
+            }
+
             return "1";
         }
     }
