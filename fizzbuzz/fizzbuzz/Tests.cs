@@ -18,7 +18,7 @@ namespace fizzbuzz
         {
             var fizzBuzz = new FizzBuzz();
             var result = fizzBuzz.GetFizzBuzz(3);
-            Assert.Equal("fizz", result);
+            Assert.Equal("Fizz", result);
         }
         
         [Fact]
@@ -26,7 +26,7 @@ namespace fizzbuzz
         {
             var fizzBuzz = new FizzBuzz();
             var result = fizzBuzz.GetFizzBuzz(5);
-            Assert.Equal("buzz", result);
+            Assert.Equal("Buzz", result);
         }
         
         [Fact]
@@ -34,7 +34,7 @@ namespace fizzbuzz
         {
             var fizzBuzz = new FizzBuzz();
             var result = fizzBuzz.GetFizzBuzz(15);
-            Assert.Equal("fizzbuzz", result);
+            Assert.Equal("FizzBuzz", result);
         }
         
         [Fact]

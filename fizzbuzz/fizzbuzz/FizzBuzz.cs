@@ -8,17 +8,17 @@ namespace fizzbuzz
         {
             if (num % 3 == 0 && num % 5 == 0)
             {
-                return "fizzbuzz";
+                return "FizzBuzz";
             }
 
             if (num % 3 == 0)
             {
-                return "fizz";
+                return "Fizz";
             }
 
             if (num % 5 == 0)
             {
-                return "buzz";
+                return "Buzz";
             }
 
             return Convert.ToString(num);
