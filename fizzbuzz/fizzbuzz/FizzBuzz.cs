@@ -9,6 +9,11 @@ namespace fizzbuzz
                 return "fizz";
             }
 
+            if (num % 5 == 0)
+            {
+                return "buzz";
+            }
+
             return "1";
         }
     }
